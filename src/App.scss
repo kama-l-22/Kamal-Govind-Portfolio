@@ -155,7 +155,7 @@ a{
     position: absolute;
     // background: #000;
     margin: 5px;
-    height: 300px;
+    height: 350px;
     width: 90%;
     bottom: 150px;
     display: flex;
@@ -163,7 +163,7 @@ a{
     flex-wrap: wrap;
     .skillbox{
       width: 220px;
-      height: 320px;
+      height: 350px;
       background: $bgreen;
       border-radius: 10px;
       color: $bwhite;
@@ -208,11 +208,47 @@ a{
           border-radius: 5px 0px 0px 5px ;
         }
       }
-      
+      .message{
+        color: black;
+        padding: 5px;
+        padding-left: 15px;
+      }
     }
   }
 }
 
+.float-down{
+  // background: #000;
+  position: absolute;
+  top: 230px;
+  .skill-mes{
+    font-size: 27px;
+    color: rgb(46, 46, 46);
+    display: flex;
+    
+  }
+  .buton-box{
+    margin: 5px;
+    text-align: center;
+    button{
+      font-size: 25px;
+      color: $bwhite;
+      background: $bgreen;
+      padding: 5px 20px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      margin: 10px;
+      &:hover{
+        border: none;
+        outline: none;
+      }
+      &:focus{
+        border:none;
+      }
+    }
+  }
+}
 .contact{
  width: 90%;
  margin: 9% auto;

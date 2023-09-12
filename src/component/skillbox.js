@@ -12,6 +12,7 @@ export default function Skillbox({img,lan,width}) {
       <div className='bar'>
         <div className='scorebar' style={{width:`${width}%` }}></div>
       </div>
+      <div className='message'> Worked one year, Got proficiant knowldege</div>
     </div>
   )
 }
