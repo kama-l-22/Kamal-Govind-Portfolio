@@ -15,8 +15,9 @@ export default function Footer() {
             <div className='icon4'><img src={twitter}/></div>
         </div>
         <div className='copyrigths'>
-            <a href='#top'><div className='up'><img src={upArrow} className='up-icon'/></div></a>
-            &copy; Copyright@Kamal/Nirmal</div>
+            <a href='#top'><div className='up'><img src={upArrow} className='up-icon'/>
+            </div></a></div>
+            {/* &copy; Copyright@kamal</div> */}
     </div>
   )
 }

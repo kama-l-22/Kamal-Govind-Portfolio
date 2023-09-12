@@ -9,10 +9,10 @@ export default function Skillset() {
   return (
     <div className='skillset'>
       <div className='skillset-sub'>
-        <Skillbox img ={python} lan = {'Python'} width={75}/>
-        <Skillbox img={cpp} lan ={'C++'} width ={50}/>
-        <Skillbox img={react}lan = {'React'} width ={80}/>
-        <Skillbox img={angular} lan ={'Angular'} width={30}/> 
+        <Skillbox img ={python} lan = {'Python'} width={75} kon={'Worked one year, Got proficiant knowldege'}/>
+        <Skillbox img={cpp} lan ={'C++'} width ={50} kon={'Able to understand the work flow'}/>
+        <Skillbox img={react}lan = {'React'} width ={80} kon={'Worked on few place, bacis knowledge'}/>
+        <Skillbox img={angular} lan ={'Angular'} width={30} kon ={'Gained intermeidate knowledge'}/> 
       </div>
       <div className='float-down'>
       <div className='skill-mes'>These are the languages where i worked and got knowledge </div>
