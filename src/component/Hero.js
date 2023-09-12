@@ -13,7 +13,7 @@ export default function Hero() {
           H<span className='diff'>i  </span>Th<span className='diff'>er</span>e..<span className='diff2'>!</span>
         </div>
         <div className='text'>
-          I'm <span className='diff2'>Govind,</span>an undergraduate engineering student in Information Technology, attending Government Engineering College, Barton Hill (GECBH)
+          I'm <span className='diff2'>Govind, </span>an undergraduate engineering student in Information Technology, attending Government Engineering College, Barton Hill (GECBH)
           <div className='extra'>
           <div className='exs'>Cricket</div>
           <div className='exs'>Moives</div>
