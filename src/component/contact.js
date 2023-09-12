@@ -3,8 +3,8 @@ import Contactform from './contactform'
 import MapLoction from './MapLocation'
 export default function Contact() {
   return (
-    <div className='contact'>
-      <div className='contact-head'>Contact With Me..!</div>
+    <div className='contact' data-aos="fade-right">
+      <div className='contact-head'>Contact Me..!</div>
       <div className='floater'>
         <Contactform/>
         
