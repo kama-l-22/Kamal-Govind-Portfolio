@@ -230,7 +230,9 @@ a{
   .buton-box{
     margin: 5px;
     text-align: center;
+
     button{
+      cursor: pointer;
       font-size: 25px;
       color: $bwhite;
       background: $bgreen;
